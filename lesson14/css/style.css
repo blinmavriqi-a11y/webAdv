@@ -1,0 +1,63 @@
+
+
+article p {
+    background-color: blue;
+    color: white;
+    padding: 20px;
+}
+
+article > p{
+    background: red;
+}
+
+article ~ p{
+    background-color: blueviolet;
+    color: white;
+    padding: 20px;
+}
+
+article + p{
+    background-color: orange;
+}
+
+p:hover{
+    background-color: aqua;
+}
+
+p:first-child {
+    background-color: green;
+}
+
+input:in-range {
+    border: 3px solid green;
+}
+
+input:out-of-range {
+    border: 3px solid green;
+}
+
+input:required {
+    background-color: #9ee5f0;
+}
+
+input:focus {
+    background-color: yellow;
+}
+
+span:first-of-type {
+    background-color: black;
+    color: white;
+    padding:20px
+}
+
+form {
+    margin-top: 20px;
+}
+
+p::first-line {
+    color: black;
+}
+
+h1::after {
+    content:- "After heading 1"
+}
